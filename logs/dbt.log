@@ -25,3 +25,300 @@ Happy modeling!
 [0m20:57:29.008346 [debug] [MainThread]: Command `dbt init` succeeded at 20:57:29.008346 after 5.75 seconds
 [0m20:57:29.008346 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000013E3958EE90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000013E392D6450>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000013E3946B050>]}
 [0m20:57:29.009344 [debug] [MainThread]: Flushing usage events
+[0m21:43:39.264644 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001CC25224E50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001CC252252D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001CC25224BD0>]}
+
+
+============================== 21:43:39.272638 | 33ee04a2-d1ee-4dbe-af9d-b5ce3c52e081 ==============================
+[0m21:43:39.272638 [info ] [MainThread]: Running with dbt=1.8.6
+[0m21:43:39.274631 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\josh\\.dbt', 'fail_fast': 'False', 'version_check': 'True', 'log_path': 'logs', 'debug': 'False', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'log_format': 'default', 'static_parser': 'True', 'invocation_command': 'dbt debug', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m21:43:39.321873 [info ] [MainThread]: dbt version: 1.8.6
+[0m21:43:39.322883 [info ] [MainThread]: python version: 3.11.2
+[0m21:43:39.323885 [info ] [MainThread]: python path: C:\Users\josh\Desktop\menv\Scripts\python.exe
+[0m21:43:39.325881 [info ] [MainThread]: os info: Windows-10-10.0.22631-SP0
+[0m21:43:39.342531 [info ] [MainThread]: Error importing adapter: No module named 'dbt.adapters.postgres'
+[0m21:43:39.350040 [info ] [MainThread]: Error importing adapter: No module named 'dbt.adapters.postgres'
+[0m21:43:39.356549 [info ] [MainThread]: Error importing adapter: No module named 'dbt.adapters.postgres'
+[0m21:43:39.360760 [info ] [MainThread]: Error importing adapter: No module named 'dbt.adapters.postgres'
+[0m21:43:39.370581 [info ] [MainThread]: Error importing adapter: No module named 'dbt.adapters.postgres'
+[0m21:43:39.378679 [info ] [MainThread]: Error importing adapter: No module named 'dbt.adapters.postgres'
+[0m21:43:39.383593 [info ] [MainThread]: Error importing adapter: No module named 'dbt.adapters.postgres'
+[0m21:43:39.401013 [error] [MainThread]: Encountered an error:
+Parsing Error
+  Env var required but not provided: 'MOTHERDUCK_TOKEN'
+[0m21:43:39.404880 [debug] [MainThread]: Command `dbt debug` failed at 21:43:39.403845 after 0.47 seconds
+[0m21:43:39.405856 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001CC2521AB50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001CC24FEA1D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001CC24FEA650>]}
+[0m21:43:39.406854 [debug] [MainThread]: Flushing usage events
+[0m21:47:19.713898 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001372DB6EED0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001372DBB2550>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001372DBB2890>]}
+
+
+============================== 21:47:19.715899 | 0d02c596-2624-47e0-aee4-7c3440355db9 ==============================
+[0m21:47:19.715899 [info ] [MainThread]: Running with dbt=1.8.6
+[0m21:47:19.716901 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'fail_fast': 'False', 'version_check': 'True', 'log_path': 'logs', 'debug': 'False', 'profiles_dir': 'C:\\Users\\josh\\.dbt', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'log_format': 'default', 'invocation_command': 'dbt debug', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'target_path': 'None', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m21:47:19.730791 [info ] [MainThread]: dbt version: 1.8.6
+[0m21:47:19.730791 [info ] [MainThread]: python version: 3.11.2
+[0m21:47:19.731766 [info ] [MainThread]: python path: C:\Users\josh\Desktop\menv\Scripts\python.exe
+[0m21:47:19.732766 [info ] [MainThread]: os info: Windows-10-10.0.22631-SP0
+[0m21:47:19.736782 [info ] [MainThread]: Error importing adapter: No module named 'dbt.adapters.postgres'
+[0m21:47:19.738785 [info ] [MainThread]: Error importing adapter: No module named 'dbt.adapters.postgres'
+[0m21:47:19.741780 [info ] [MainThread]: Error importing adapter: No module named 'dbt.adapters.postgres'
+[0m21:47:19.744439 [info ] [MainThread]: Error importing adapter: No module named 'dbt.adapters.postgres'
+[0m21:47:19.747452 [info ] [MainThread]: Error importing adapter: No module named 'dbt.adapters.postgres'
+[0m21:47:19.749769 [info ] [MainThread]: Error importing adapter: No module named 'dbt.adapters.postgres'
+[0m21:47:19.751378 [info ] [MainThread]: Error importing adapter: No module named 'dbt.adapters.postgres'
+[0m21:47:19.826606 [info ] [MainThread]: Using profiles dir at C:\Users\josh\.dbt
+[0m21:47:19.827608 [info ] [MainThread]: Using profiles.yml file at C:\Users\josh\.dbt\profiles.yml
+[0m21:47:19.828691 [info ] [MainThread]: Using dbt_project.yml file at C:\Users\josh\Desktop\ARR\dbt_project.yml
+[0m21:47:19.829588 [info ] [MainThread]: Configuration:
+[0m21:47:19.829588 [info ] [MainThread]:   profiles.yml file [[31mERROR invalid[0m]
+[0m21:47:19.830598 [info ] [MainThread]:   dbt_project.yml file [[31mERROR not found[0m]
+[0m21:47:19.830598 [info ] [MainThread]: Required dependencies:
+[0m21:47:19.831589 [debug] [MainThread]: Executing "git --help"
+[0m21:47:19.876173 [debug] [MainThread]: STDOUT: "b"usage: git [--version] [--help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]\n           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]\n           [--super-prefix=<path>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone     Clone a repository into a new directory\n   init      Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add       Add file contents to the index\n   mv        Move or rename a file, a directory, or a symlink\n   restore   Restore working tree files\n   rm        Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect    Use binary search to find the commit that introduced a bug\n   diff      Show changes between commits, commit and working tree, etc\n   grep      Print lines matching a pattern\n   log       Show commit logs\n   show      Show various types of objects\n   status    Show the working tree status\n\ngrow, mark and tweak your common history\n   branch    List, create, or delete branches\n   commit    Record changes to the repository\n   merge     Join two or more development histories together\n   rebase    Reapply commits on top of another base tip\n   reset     Reset current HEAD to the specified state\n   switch    Switch branches\n   tag       Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch     Download objects and refs from another repository\n   pull      Fetch from and integrate with another repository or a local branch\n   push      Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m21:47:19.876173 [debug] [MainThread]: STDERR: "b''"
+[0m21:47:19.876173 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m21:47:19.876173 [info ] [MainThread]: Connection test skipped since no profile was found
+[0m21:47:19.876173 [info ] [MainThread]: [31m2 checks failed:[0m
+[0m21:47:19.876173 [info ] [MainThread]: Could not load dbt_project.yml
+Profile loading failed for the following reason:
+Runtime Error
+  Credentials in profile "analytics", target "dev" invalid: Runtime Error
+    Could not find adapter type postgres!
+
+Runtime Error
+  Credentials in profile "dbt_market_attribution", target "dev" invalid: Runtime Error
+    Could not find adapter type postgres!
+
+Runtime Error
+  Credentials in profile "new_", target "dev" invalid: Runtime Error
+    Could not find adapter type postgres!
+
+Runtime Error
+  Credentials in profile "practice", target "dev" invalid: Runtime Error
+    Could not find adapter type postgres!
+
+Runtime Error
+  Credentials in profile "refactoring", target "dev" invalid: Runtime Error
+    Could not find adapter type postgres!
+
+Runtime Error
+  Credentials in profile "sql_patterns_dbt", target "dev" invalid: Runtime Error
+    Could not find adapter type postgres!
+
+Runtime Error
+  Credentials in profile "vendease_ecom", target "dev" invalid: Runtime Error
+    Could not find adapter type postgres!
+
+
+[0m21:47:19.879933 [info ] [MainThread]: Project loading failed for the following reason:
+ project path <C:\Users\josh\Desktop\ARR\dbt_project.yml> not found
+
+[0m21:47:19.879933 [debug] [MainThread]: Command `dbt debug` failed at 21:47:19.879933 after 0.25 seconds
+[0m21:47:19.879933 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001372768AE90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001372768BA10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001372DC37310>]}
+[0m21:47:19.879933 [debug] [MainThread]: Flushing usage events
+[0m21:47:24.899876 [debug] [MainThread]: Error sending anonymous usage statistics. Disabling tracking for this execution. If you wish to permanently disable tracking, see: https://docs.getdbt.com/reference/global-configs#send-anonymous-usage-stats.
+[0m21:57:08.577148 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000023DECDC5110>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000023DECDC4BD0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000023DECDC45D0>]}
+
+
+============================== 21:57:08.577148 | 70eff9aa-9072-4e25-bd0b-2624342d6853 ==============================
+[0m21:57:08.577148 [info ] [MainThread]: Running with dbt=1.8.6
+[0m21:57:08.577148 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\josh\\.dbt', 'fail_fast': 'False', 'debug': 'False', 'log_path': 'logs', 'warn_error': 'None', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'log_format': 'default', 'invocation_command': 'dbt debug', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m21:57:08.594006 [info ] [MainThread]: dbt version: 1.8.6
+[0m21:57:08.595054 [info ] [MainThread]: python version: 3.11.2
+[0m21:57:08.596030 [info ] [MainThread]: python path: C:\Users\josh\Desktop\menv\Scripts\python.exe
+[0m21:57:08.597030 [info ] [MainThread]: os info: Windows-10-10.0.22631-SP0
+[0m21:57:08.602130 [info ] [MainThread]: Error importing adapter: No module named 'dbt.adapters.postgres'
+[0m21:57:08.604103 [info ] [MainThread]: Error importing adapter: No module named 'dbt.adapters.postgres'
+[0m21:57:08.607577 [info ] [MainThread]: Error importing adapter: No module named 'dbt.adapters.postgres'
+[0m21:57:08.609580 [info ] [MainThread]: Error importing adapter: No module named 'dbt.adapters.postgres'
+[0m21:57:08.611100 [info ] [MainThread]: Error importing adapter: No module named 'dbt.adapters.postgres'
+[0m21:57:08.612079 [info ] [MainThread]: Error importing adapter: No module named 'dbt.adapters.postgres'
+[0m21:57:08.614478 [info ] [MainThread]: Error importing adapter: No module named 'dbt.adapters.postgres'
+[0m21:57:08.684362 [info ] [MainThread]: Using profiles dir at C:\Users\josh\.dbt
+[0m21:57:08.685362 [info ] [MainThread]: Using profiles.yml file at C:\Users\josh\.dbt\profiles.yml
+[0m21:57:08.686362 [info ] [MainThread]: Using dbt_project.yml file at C:\Users\josh\Desktop\ARR\dbt_project.yml
+[0m21:57:08.687362 [info ] [MainThread]: Configuration:
+[0m21:57:08.688363 [info ] [MainThread]:   profiles.yml file [[31mERROR invalid[0m]
+[0m21:57:08.688363 [info ] [MainThread]:   dbt_project.yml file [[31mERROR not found[0m]
+[0m21:57:08.689362 [info ] [MainThread]: Required dependencies:
+[0m21:57:08.689362 [debug] [MainThread]: Executing "git --help"
+[0m21:57:08.723903 [debug] [MainThread]: STDOUT: "b"usage: git [--version] [--help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]\n           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]\n           [--super-prefix=<path>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone     Clone a repository into a new directory\n   init      Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add       Add file contents to the index\n   mv        Move or rename a file, a directory, or a symlink\n   restore   Restore working tree files\n   rm        Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect    Use binary search to find the commit that introduced a bug\n   diff      Show changes between commits, commit and working tree, etc\n   grep      Print lines matching a pattern\n   log       Show commit logs\n   show      Show various types of objects\n   status    Show the working tree status\n\ngrow, mark and tweak your common history\n   branch    List, create, or delete branches\n   commit    Record changes to the repository\n   merge     Join two or more development histories together\n   rebase    Reapply commits on top of another base tip\n   reset     Reset current HEAD to the specified state\n   switch    Switch branches\n   tag       Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch     Download objects and refs from another repository\n   pull      Fetch from and integrate with another repository or a local branch\n   push      Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m21:57:08.723903 [debug] [MainThread]: STDERR: "b''"
+[0m21:57:08.723903 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m21:57:08.723903 [info ] [MainThread]: Connection test skipped since no profile was found
+[0m21:57:08.732300 [info ] [MainThread]: [31m2 checks failed:[0m
+[0m21:57:08.732300 [info ] [MainThread]: Could not load dbt_project.yml
+Profile loading failed for the following reason:
+Runtime Error
+  Credentials in profile "analytics", target "dev" invalid: Runtime Error
+    Could not find adapter type postgres!
+
+Runtime Error
+  Credentials in profile "dbt_market_attribution", target "dev" invalid: Runtime Error
+    Could not find adapter type postgres!
+
+Runtime Error
+  Credentials in profile "new_", target "dev" invalid: Runtime Error
+    Could not find adapter type postgres!
+
+Runtime Error
+  Credentials in profile "practice", target "dev" invalid: Runtime Error
+    Could not find adapter type postgres!
+
+Runtime Error
+  Credentials in profile "refactoring", target "dev" invalid: Runtime Error
+    Could not find adapter type postgres!
+
+Runtime Error
+  Credentials in profile "sql_patterns_dbt", target "dev" invalid: Runtime Error
+    Could not find adapter type postgres!
+
+Runtime Error
+  Credentials in profile "vendease_ecom", target "dev" invalid: Runtime Error
+    Could not find adapter type postgres!
+
+
+[0m21:57:08.734580 [info ] [MainThread]: Project loading failed for the following reason:
+ project path <C:\Users\josh\Desktop\ARR\dbt_project.yml> not found
+
+[0m21:57:08.734580 [debug] [MainThread]: Command `dbt debug` failed at 21:57:08.734580 after 0.25 seconds
+[0m21:57:08.734580 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000023DECDF1550>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000023DE691BA10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000023DE691BA50>]}
+[0m21:57:08.734580 [debug] [MainThread]: Flushing usage events
+[0m21:59:38.623116 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000026236759C50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000026236758F10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000026236759790>]}
+
+
+============================== 21:59:38.638762 | cac87195-1f45-4b7e-a641-a99f17759e5b ==============================
+[0m21:59:38.638762 [info ] [MainThread]: Running with dbt=1.8.6
+[0m21:59:38.638762 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'fail_fast': 'False', 'profiles_dir': 'C:\\Users\\josh\\.dbt', 'log_path': 'logs', 'debug': 'False', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'log_format': 'default', 'invocation_command': 'dbt debug', 'static_parser': 'True', 'introspect': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'send_anonymous_usage_stats': 'True'}
+[0m21:59:38.638762 [info ] [MainThread]: dbt version: 1.8.6
+[0m21:59:38.654871 [info ] [MainThread]: python version: 3.11.2
+[0m21:59:38.655227 [info ] [MainThread]: python path: C:\Users\josh\Desktop\menv\Scripts\python.exe
+[0m21:59:38.655227 [info ] [MainThread]: os info: Windows-10-10.0.22631-SP0
+[0m21:59:38.655227 [info ] [MainThread]: Error importing adapter: No module named 'dbt.adapters.postgres'
+[0m21:59:38.655227 [info ] [MainThread]: Error importing adapter: No module named 'dbt.adapters.postgres'
+[0m21:59:38.655227 [info ] [MainThread]: Error importing adapter: No module named 'dbt.adapters.postgres'
+[0m21:59:38.664800 [info ] [MainThread]: Error importing adapter: No module named 'dbt.adapters.postgres'
+[0m21:59:38.666823 [info ] [MainThread]: Error importing adapter: No module named 'dbt.adapters.postgres'
+[0m21:59:38.668822 [info ] [MainThread]: Error importing adapter: No module named 'dbt.adapters.postgres'
+[0m21:59:38.670396 [info ] [MainThread]: Error importing adapter: No module named 'dbt.adapters.postgres'
+[0m21:59:38.735483 [info ] [MainThread]: Using profiles dir at C:\Users\josh\.dbt
+[0m21:59:38.735483 [info ] [MainThread]: Using profiles.yml file at C:\Users\josh\.dbt\profiles.yml
+[0m21:59:38.735483 [info ] [MainThread]: Using dbt_project.yml file at C:\Users\josh\Desktop\ARR\dbt_project.yml
+[0m21:59:38.735483 [info ] [MainThread]: Configuration:
+[0m21:59:38.735483 [info ] [MainThread]:   profiles.yml file [[31mERROR invalid[0m]
+[0m21:59:38.735483 [info ] [MainThread]:   dbt_project.yml file [[31mERROR not found[0m]
+[0m21:59:38.735483 [info ] [MainThread]: Required dependencies:
+[0m21:59:38.735483 [debug] [MainThread]: Executing "git --help"
+[0m21:59:38.781148 [debug] [MainThread]: STDOUT: "b"usage: git [--version] [--help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]\n           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]\n           [--super-prefix=<path>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone     Clone a repository into a new directory\n   init      Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add       Add file contents to the index\n   mv        Move or rename a file, a directory, or a symlink\n   restore   Restore working tree files\n   rm        Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect    Use binary search to find the commit that introduced a bug\n   diff      Show changes between commits, commit and working tree, etc\n   grep      Print lines matching a pattern\n   log       Show commit logs\n   show      Show various types of objects\n   status    Show the working tree status\n\ngrow, mark and tweak your common history\n   branch    List, create, or delete branches\n   commit    Record changes to the repository\n   merge     Join two or more development histories together\n   rebase    Reapply commits on top of another base tip\n   reset     Reset current HEAD to the specified state\n   switch    Switch branches\n   tag       Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch     Download objects and refs from another repository\n   pull      Fetch from and integrate with another repository or a local branch\n   push      Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m21:59:38.782101 [debug] [MainThread]: STDERR: "b''"
+[0m21:59:38.782101 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m21:59:38.782101 [info ] [MainThread]: Connection test skipped since no profile was found
+[0m21:59:38.782101 [info ] [MainThread]: [31m2 checks failed:[0m
+[0m21:59:38.782101 [info ] [MainThread]: Could not load dbt_project.yml
+Profile loading failed for the following reason:
+Runtime Error
+  Credentials in profile "analytics", target "dev" invalid: Runtime Error
+    Could not find adapter type postgres!
+
+Runtime Error
+  Credentials in profile "dbt_market_attribution", target "dev" invalid: Runtime Error
+    Could not find adapter type postgres!
+
+Runtime Error
+  Credentials in profile "new_", target "dev" invalid: Runtime Error
+    Could not find adapter type postgres!
+
+Runtime Error
+  Credentials in profile "practice", target "dev" invalid: Runtime Error
+    Could not find adapter type postgres!
+
+Runtime Error
+  Credentials in profile "refactoring", target "dev" invalid: Runtime Error
+    Could not find adapter type postgres!
+
+Runtime Error
+  Credentials in profile "sql_patterns_dbt", target "dev" invalid: Runtime Error
+    Could not find adapter type postgres!
+
+Runtime Error
+  Credentials in profile "vendease_ecom", target "dev" invalid: Runtime Error
+    Could not find adapter type postgres!
+
+
+[0m21:59:38.782101 [info ] [MainThread]: Project loading failed for the following reason:
+ project path <C:\Users\josh\Desktop\ARR\dbt_project.yml> not found
+
+[0m21:59:38.782101 [debug] [MainThread]: Command `dbt debug` failed at 21:59:38.782101 after 0.23 seconds
+[0m21:59:38.782101 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000262302FAE90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000026236A7D9D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000262364314D0>]}
+[0m21:59:38.782101 [debug] [MainThread]: Flushing usage events
+[0m22:01:16.894923 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C1C4397D10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C1C411A150>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C1C4349A10>]}
+
+
+============================== 22:01:16.898526 | 6311cd4d-1045-4898-9609-cbfaa81f54c1 ==============================
+[0m22:01:16.898526 [info ] [MainThread]: Running with dbt=1.8.6
+[0m22:01:16.899525 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\josh\\.dbt', 'fail_fast': 'False', 'warn_error': 'None', 'log_path': 'logs', 'version_check': 'True', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'static_parser': 'True', 'invocation_command': 'dbt debug', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m22:01:16.912381 [info ] [MainThread]: dbt version: 1.8.6
+[0m22:01:16.913380 [info ] [MainThread]: python version: 3.11.2
+[0m22:01:16.913380 [info ] [MainThread]: python path: C:\Users\josh\Desktop\menv\Scripts\python.exe
+[0m22:01:16.914381 [info ] [MainThread]: os info: Windows-10-10.0.22631-SP0
+[0m22:01:16.918687 [info ] [MainThread]: Error importing adapter: No module named 'dbt.adapters.postgres'
+[0m22:01:16.920136 [info ] [MainThread]: Error importing adapter: No module named 'dbt.adapters.postgres'
+[0m22:01:16.922144 [info ] [MainThread]: Error importing adapter: No module named 'dbt.adapters.postgres'
+[0m22:01:16.924144 [info ] [MainThread]: Error importing adapter: No module named 'dbt.adapters.postgres'
+[0m22:01:16.925442 [info ] [MainThread]: Error importing adapter: No module named 'dbt.adapters.postgres'
+[0m22:01:16.927469 [info ] [MainThread]: Error importing adapter: No module named 'dbt.adapters.postgres'
+[0m22:01:16.929462 [info ] [MainThread]: Error importing adapter: No module named 'dbt.adapters.postgres'
+[0m22:01:17.000845 [info ] [MainThread]: Using profiles dir at C:\Users\josh\.dbt
+[0m22:01:17.001827 [info ] [MainThread]: Using profiles.yml file at C:\Users\josh\.dbt\profiles.yml
+[0m22:01:17.001827 [info ] [MainThread]: Using dbt_project.yml file at C:\Users\josh\Desktop\ARR\dbt_project.yml
+[0m22:01:17.001827 [info ] [MainThread]: Configuration:
+[0m22:01:17.002977 [info ] [MainThread]:   profiles.yml file [[31mERROR invalid[0m]
+[0m22:01:17.002977 [info ] [MainThread]:   dbt_project.yml file [[31mERROR not found[0m]
+[0m22:01:17.003989 [info ] [MainThread]: Required dependencies:
+[0m22:01:17.003989 [debug] [MainThread]: Executing "git --help"
+[0m22:01:17.046342 [debug] [MainThread]: STDOUT: "b"usage: git [--version] [--help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]\n           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]\n           [--super-prefix=<path>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone     Clone a repository into a new directory\n   init      Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add       Add file contents to the index\n   mv        Move or rename a file, a directory, or a symlink\n   restore   Restore working tree files\n   rm        Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect    Use binary search to find the commit that introduced a bug\n   diff      Show changes between commits, commit and working tree, etc\n   grep      Print lines matching a pattern\n   log       Show commit logs\n   show      Show various types of objects\n   status    Show the working tree status\n\ngrow, mark and tweak your common history\n   branch    List, create, or delete branches\n   commit    Record changes to the repository\n   merge     Join two or more development histories together\n   rebase    Reapply commits on top of another base tip\n   reset     Reset current HEAD to the specified state\n   switch    Switch branches\n   tag       Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch     Download objects and refs from another repository\n   pull      Fetch from and integrate with another repository or a local branch\n   push      Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m22:01:17.046342 [debug] [MainThread]: STDERR: "b''"
+[0m22:01:17.047349 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m22:01:17.047514 [info ] [MainThread]: Connection test skipped since no profile was found
+[0m22:01:17.047514 [info ] [MainThread]: [31m2 checks failed:[0m
+[0m22:01:17.047514 [info ] [MainThread]: Could not load dbt_project.yml
+Profile loading failed for the following reason:
+Runtime Error
+  Credentials in profile "analytics", target "dev" invalid: Runtime Error
+    Could not find adapter type postgres!
+
+Runtime Error
+  Credentials in profile "dbt_market_attribution", target "dev" invalid: Runtime Error
+    Could not find adapter type postgres!
+
+Runtime Error
+  Credentials in profile "new_", target "dev" invalid: Runtime Error
+    Could not find adapter type postgres!
+
+Runtime Error
+  Credentials in profile "practice", target "dev" invalid: Runtime Error
+    Could not find adapter type postgres!
+
+Runtime Error
+  Credentials in profile "refactoring", target "dev" invalid: Runtime Error
+    Could not find adapter type postgres!
+
+Runtime Error
+  Credentials in profile "sql_patterns_dbt", target "dev" invalid: Runtime Error
+    Could not find adapter type postgres!
+
+Runtime Error
+  Credentials in profile "vendease_ecom", target "dev" invalid: Runtime Error
+    Could not find adapter type postgres!
+
+
+[0m22:01:17.047514 [info ] [MainThread]: Project loading failed for the following reason:
+ project path <C:\Users\josh\Desktop\ARR\dbt_project.yml> not found
+
+[0m22:01:17.047514 [debug] [MainThread]: Command `dbt debug` failed at 22:01:17.047514 after 0.24 seconds
+[0m22:01:17.047514 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C1C4357A90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C1BDE6AE90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C1BDE6BA10>]}
+[0m22:01:17.047514 [debug] [MainThread]: Flushing usage events
+[0m22:01:22.873699 [debug] [MainThread]: Error sending anonymous usage statistics. Disabling tracking for this execution. If you wish to permanently disable tracking, see: https://docs.getdbt.com/reference/global-configs#send-anonymous-usage-stats.
