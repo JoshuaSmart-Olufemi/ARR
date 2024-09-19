@@ -1,0 +1,19 @@
+version: 2
+
+sources:
+
+  - name: motherduck # name of the source 
+    schema: main # this is the schema our raw data lives in
+    database: dev # this is the name of our database
+
+    quoting:
+      database: false
+      schema: false
+      identifier: false
+
+    freshness:
+      warn_after: {count: 24, period: hour}
+      error_after: {count: 48, period: hour}
+
+    tables:
+      - name: base_table
