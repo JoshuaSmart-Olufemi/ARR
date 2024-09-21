@@ -16,4 +16,6 @@ sources:
       error_after: {count: 48, period: hour}
 
     tables:
-      - name: base_table
+      - name: date_table 
+
+      - name: clean_arr_
