@@ -1,5 +1,5 @@
 with source as (
-      select * from {{ source('motherduck', 'base_table') }}
+      select * from {{ source('motherduck', 'date_table') }}
 ),
 renamed as (
     select
