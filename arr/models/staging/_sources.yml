@@ -18,4 +18,6 @@ sources:
     tables:
       - name: date_table 
 
-      - name: clean_arr_
+      - name: arr_data
+
+      - name: subscriptions
