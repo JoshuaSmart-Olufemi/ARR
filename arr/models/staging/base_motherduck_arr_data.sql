@@ -12,4 +12,10 @@ renamed as (
     from source
 )
 select * from renamed
+--period_start
+--2019-08-15 min 
+--2023-07-14 max
+
+--period_end
+--
   
